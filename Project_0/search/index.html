@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="height=device-height">
+        <title>Search</title>
+        <style media="screen">
+          #gobutton:hover {
+            color: white;
+            <!background: orange;>
+          }
+
+          #searchbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 600px ;
+          }
+
+          h2 {
+            color: black;
+          }
+
+        </style>
+    </head>
+    <body>
+      <div style="text-align: right;">
+        <a href="images.html">Image search</a>
+        <a href="advanced.html">Advanced search</a>
+      </div>
+
+      <div style="text-align: center;" id = searchbar>
+        <form action="https://google.com/search">
+            <input type="text" name="q">
+            <input id = gobutton type="submit" value="Google Search">
+        </form>
+      </div>
+    </body>
+</html>
