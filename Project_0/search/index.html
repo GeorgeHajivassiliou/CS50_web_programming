@@ -4,9 +4,10 @@
         <meta name="viewport" content="height=device-height">
         <title>Search</title>
         <style media="screen">
-          #gobutton:hover {
-            color: white;
+          #gobutton {
+            color: black ;
             <!background: orange;>
+            border-radius: 50px;
           }
 
           #searchbar {
@@ -30,8 +31,14 @@
 
       <div style="text-align: center;" id = searchbar>
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input id = gobutton type="submit" value="Google Search">
+            <input type="text" name="q" style="border-style: solid;
+                                               border-radius:10px;"> <br> <br>
+            <input id = gobutton type="submit" value="Google Search"
+                   style="border-radius:10px;
+                          border-style: solid;">
+            <input id = gobutton type="submit" value="I'm feeling lucky" name=btnI
+                   style="border-radius:10px;
+                          border-style: solid;">
         </form>
       </div>
     </body>
